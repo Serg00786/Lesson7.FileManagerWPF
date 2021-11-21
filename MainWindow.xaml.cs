@@ -25,7 +25,7 @@ namespace FileManager
         public MainWindow()
         {
             InitializeComponent();
-            ShowPath("C:\\");
+            ShowPath("C:\\"); // example
             
         }
         private void ListBoxItem_MouseDoubleClick(object sender, RoutedEventArgs e)
@@ -42,10 +42,6 @@ namespace FileManager
                 Paths = a + Paths;
                 Process.Start(Paths);
             }
-
-                
- 
-           
 
         }
 
