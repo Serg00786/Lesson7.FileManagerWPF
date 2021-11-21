@@ -1,0 +1,15 @@
+C:\Users\HomePC\source\repos\FileManager\bin\Debug\FileManager.exe.config
+C:\Users\HomePC\source\repos\FileManager\bin\Debug\FileManager.exe
+C:\Users\HomePC\source\repos\FileManager\bin\Debug\FileManager.pdb
+C:\Users\HomePC\source\repos\FileManager\obj\Debug\FileManager.csprojAssemblyReference.cache
+C:\Users\HomePC\source\repos\FileManager\obj\Debug\MainWindow.g.cs
+C:\Users\HomePC\source\repos\FileManager\obj\Debug\App.g.cs
+C:\Users\HomePC\source\repos\FileManager\obj\Debug\FileManager_MarkupCompile.cache
+C:\Users\HomePC\source\repos\FileManager\obj\Debug\FileManager_MarkupCompile.lref
+C:\Users\HomePC\source\repos\FileManager\obj\Debug\MainWindow.baml
+C:\Users\HomePC\source\repos\FileManager\obj\Debug\FileManager.g.resources
+C:\Users\HomePC\source\repos\FileManager\obj\Debug\FileManager.Properties.Resources.resources
+C:\Users\HomePC\source\repos\FileManager\obj\Debug\FileManager.csproj.GenerateResource.cache
+C:\Users\HomePC\source\repos\FileManager\obj\Debug\FileManager.csproj.CoreCompileInputs.cache
+C:\Users\HomePC\source\repos\FileManager\obj\Debug\FileManager.exe
+C:\Users\HomePC\source\repos\FileManager\obj\Debug\FileManager.pdb
