@@ -22,10 +22,13 @@ namespace FileManager
     /// </summary>
     public partial class MainWindow : Window
     {
+        ReportService reportService = new ReportService();
         public MainWindow()
         {
             InitializeComponent();
             ShowPath("C:\\"); // example
+            GetDiskSpace();
+           
             
         }
         private void ListBoxItem_MouseDoubleClick(object sender, RoutedEventArgs e)
@@ -88,7 +91,19 @@ namespace FileManager
                 ShowPath(Path);
             }
         }
+        private void GetDiskSpace()
+        {
+            DiskUtility diskUtility = new DiskUtility();
+            DriveInfo CDrive = new DriveInfo("C");
+            diskUtility.PlaceLeft = CDrive.AvailableFreeSpace/1024/1024/1024; 
+            diskUtility.DiskSize = CDrive.TotalSize/1024/1024/1024;
+            DiskInfo.Content = reportService.GenerateReport(diskUtility);
+
+
+        }
     }
+
+
 
 
 }
