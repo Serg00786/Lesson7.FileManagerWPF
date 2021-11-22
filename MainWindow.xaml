@@ -16,5 +16,6 @@
         </ListBox>
         <Button Click="Back_Click" Width="100" Height="50" Margin="0,0,600,300">Back</Button>
         <TextBox Name="PathText" Width="500" Height="20" Margin="50,0,0,300" />
+        <Label Name="DiskInfo" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,250"/>
     </Grid>
 </Window>
